@@ -13,6 +13,7 @@ public class App
  public static void main(String[] args) {
 	 System.setProperty("webdriver.chrome.driver","C:\\Edureka\\chromedriver.exe");
 	 ChromeOptions chromeOptions = new ChromeOptions();
+	 chromeOptions.addArguments("--headless");
 	 WebDriver driver = new ChromeDriver(chromeOptions);
 	 
 	 System.out.println("Hi, Welcome to Demo for Selenium WebDriver");
