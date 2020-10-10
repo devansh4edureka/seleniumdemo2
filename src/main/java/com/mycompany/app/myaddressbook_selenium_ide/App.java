@@ -11,7 +11,7 @@ public class App
 {
  @Test
  public static void main(String[] args) {
-	 System.setProperty("webdriver.chrome.driver","/root/selenium/chromedriver");
+	 System.setProperty("webdriver.chrome.driver","/home/ubuntu/chromedriver");
 	 ChromeOptions chromeOptions = new ChromeOptions();
 	 chromeOptions.addArguments("--headless");
 	 WebDriver driver = new ChromeDriver(chromeOptions);
