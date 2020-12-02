@@ -18,7 +18,7 @@ public class App
 	 
 	 System.out.println("Hi, Welcome to Demo for Selenium WebDriver");
 	 
-	 driver.get("http://15.207.18.200/:8888/");
+	 driver.get("http://15.207.18.200:8888/");
 	 
 	 driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	 
